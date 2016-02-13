@@ -18,19 +18,19 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
-:local(.vertically-centered),
+:local(.verticallyCentered),
 %vertically-centered {
     @include vertically-centered();
 }
-:local(.horizontally-right),
+:local(.horizontallyRight),
 %horizontally-right {
     @include horizontally-right();
 }
-:local(.horizontally-centered),
+:local(.horizontallyCentered),
 %horizontally-centered {
     @include horizontally-centered();
 }
-:local(.vertically-horizontally-centered),
+:local(.verticallyHorizontallyCentered),
 %vertically-horizontally-centered {
     @include vertically-horizontally-centered();
 }
